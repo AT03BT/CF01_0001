@@ -18,6 +18,11 @@ namespace CF01_0001.Controllers
             return View();
         }
 
+        public IActionResult ComponentEditor()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
